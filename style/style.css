@@ -1,1 +1,91 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0%;
+  margin: 0%;
+  background-color: #000000;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  align-items: center;
+  letter-spacing: 1px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+.log {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.log p {
+  margin-bottom: 80px;
+  font-size: 24;
+  letter-spacing: 2px;
+}
+.log table {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
+}
+.log table tr {
+  height: 50px;
+}
+.log table tr #left {
+  text-align: left;
+}
+.log table #box {
+  width: 180px;
+  height: 35px;
+  border: 0;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 8px;
+}
+.log table #submit {
+  width: 150px;
+  height: 30px;
+  border: 1px solid #1b65ff;
+  border-radius: 8px;
+  background: #1b65ff;
+  font-size: 15;
+  letter-spacing: 1;
+  cursor: pointer;
+}
+.log table #last td {
+  padding-top: 60px;
+}
+.log table span {
+  margin-left: 10px;
+}
+.log a {
+  text-decoration: none;
+  color: #1b65ff;
+  text-align: left;
+}
+.log footer {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  bottom: 0%;
+  font-size: 15px;
+  letter-spacing: 1;
+  margin-top: 80px;
+  justify-content: space-around;
+}
+.log footer a {
+  color: gray;
+}/*# sourceMappingURL=style.css.map */
