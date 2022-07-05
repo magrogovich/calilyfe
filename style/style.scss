@@ -69,13 +69,21 @@ nav{
             letter-spacing: 1;
             cursor: pointer;
         }
+        .boxs{
+            padding-top: 50px;
+        }
         #last{
             td{
                 padding-top: 60px;
+                
             }
         }
         span{
             margin-left: 10px;
+            font-size: 15px;
+        }
+        .fex{
+            padding-top: 15px;
         }
 
     }
@@ -83,7 +91,7 @@ nav{
         text-decoration: none;
         color: $one;
         text-align: left;
-        
+        font-size: 15px;
     }
     footer{
         display: flex;

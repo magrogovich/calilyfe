@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
-    <title>Log in</title>
+    <title>Sign in</title>
 </head>
 <body>
     <nav>
@@ -15,13 +15,25 @@
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="membership.html">Membership</a></li>
-            <li><a href="careers.html">Careers</a></li>
+            <li><a href="careers.html">Croes</a></li>
         </ul>
     </nav>
     <div class="log">
-        <p>Log In</p>
+        <p>create account</p>
         <form action="" method="post" name="f">
             <table>
+                <tr>
+                    <td id="left">email:</td>
+                    <td><input type="text" id="box"></td>
+                </tr>
+                <tr>
+                    <td id="left">first name:</td>
+                    <td><input type="text" id="box"></td>
+                </tr>
+                <tr>
+                    <td id="left">last name:</td>
+                    <td><input type="text" id="box"></td>
+                </tr>
                 <tr>
                     <td id="left">username:</td>
                     <td><input type="text" id="box"></td>
@@ -30,19 +42,25 @@
                     <td id="left">password:</td>
                     <td><input type="password" id="box"></td>
                 </tr>
+                <tr>
+                    <td id="left">confirm password:</td>
+                    <td><input type="password" id="box"></td>
+                </tr>
     
                 <tr>
-                    <td  id="left"><input type="checkbox" name="rem" id=""><span>Remember me</span></td>
+                    <td  id="left" class="boxs">
+                        <input type="checkbox" name="age" id=""><span>I'm over 13 year old</span><br><br>
+                        <input type="checkbox" name="accept" id=""><span>I accept all the terms and conditions</span>
+                    </td>
                 </tr>
     
                 <tr id="last">
-                    <td><input type="submit" id="submit" value="Log in"></td>
+                    <td><input type="submit" id="submit" value="Sign in"></td>
                     <td><input type="reset" id="submit" value="reset"></td>
                 </tr>
     
                 <tr>
-                    <td id="left" class="fex">  <a href="#" id="repass">Reset password</a><br><br>
-                        <a href="signin.html" id="repass">Create account</a></td>
+                    <td id="left">  <a href="login.html" id="repass">I already have an account</a></td>
                 </tr>
             </table>
         </form>

@@ -65,16 +65,24 @@ nav ul li a {
   letter-spacing: 1;
   cursor: pointer;
 }
+.log table .boxs {
+  padding-top: 50px;
+}
 .log table #last td {
   padding-top: 60px;
 }
 .log table span {
   margin-left: 10px;
+  font-size: 15px;
+}
+.log table .fex {
+  padding-top: 15px;
 }
 .log a {
   text-decoration: none;
   color: #1b65ff;
   text-align: left;
+  font-size: 15px;
 }
 .log footer {
   display: flex;
