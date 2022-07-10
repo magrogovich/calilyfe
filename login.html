@@ -16,23 +16,25 @@
             <li><a href="contact.html">Contact</a></li>
             <li><a href="membership.html">Membership</a></li>
             <li><a href="careers.html">Careers</a></li>
+            <li><a href="login.html">Log in </a></li>
+            <li><a href="signin.html">Sign in </a></li>
         </ul>
     </nav>
     <div class="log">
         <p>Log In</p>
-        <form action="" method="post" name="f">
+        <form action="" method="post" name="log" onsubmit="verif()">
             <table>
                 <tr>
                     <td id="left">username:</td>
-                    <td><input type="text" id="box"></td>
+                    <td><input type="text" name='name'id="box" required></td>
                 </tr>
                 <tr>
                     <td id="left">password:</td>
-                    <td><input type="password" id="box"></td>
+                    <td><input type="password" name='pass' id="box" required></td>
                 </tr>
     
                 <tr>
-                    <td  id="left"><input type="checkbox" name="rem" id=""><span>Remember me</span></td>
+                    <td  id="left"><input type="checkbox" name="rem" required id=""><span>Remember me</span></td>
                 </tr>
     
                 <tr id="last">
@@ -52,6 +54,6 @@
         </footer>
         
     </div>
-
+    <script src="function/app.js""></script>
 </body>
 </html>
