@@ -22,31 +22,31 @@
     </nav>
     <div class="log">
         <p>create account</p>
-        <form action="" method="post" name="f">
+        <form action="" method="post" onsubmit="return verif()" name="f">
             <table>
                 <tr>
                     <td id="left">email:</td>
-                    <td><input type="text" id="box"></td>
+                    <td><input type="email" id="box" required></td>
                 </tr>
                 <tr>
                     <td id="left">first name:</td>
-                    <td><input type="text" id="box"></td>
+                    <td><input type="text" name="fname" id="box"></td>
                 </tr>
                 <tr>
                     <td id="left">last name:</td>
-                    <td><input type="text" id="box"></td>
+                    <td><input type="text" name="lname" id="box"></td>
                 </tr>
                 <tr>
                     <td id="left">username:</td>
-                    <td><input type="text" id="box"></td>
+                    <td><input type="text" name="uname" id="box"></td>
                 </tr>
                 <tr>
                     <td id="left">password:</td>
-                    <td><input type="password" id="box"></td>
+                    <td><input type="password" name="pwd" id="box"></td>
                 </tr>
                 <tr>
                     <td id="left">confirm password:</td>
-                    <td><input type="password" id="box"></td>
+                    <td><input type="password" name="cpwd" id="box"></td>
                 </tr>
     
                 <tr>
@@ -72,6 +72,6 @@
         </footer>
         
     </div>
-    <script src="function/app.js""></script>
+    <script src="function/sign.js""></script>
 </body>
 </html>
