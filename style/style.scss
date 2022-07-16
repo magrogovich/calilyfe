@@ -26,6 +26,7 @@ nav{
         li{
             a{
                 text-decoration: none;
+                font-size: 15px;
             }
         }
     }
@@ -194,3 +195,79 @@ header{
         color: #000;
       }
 }
+
+.soci{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    img{
+        width: 20px;
+        margin-right: 20px;
+    }
+    label{
+        font-size: 15px;
+        letter-spacing: 1px;
+        color: gray;
+    }
+
+  }
+
+
+.folow{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+
+    a{
+        img{
+            width: 50px;
+        }
+    }
+}
+
+.info{
+    text-align: left;
+    p{
+        margin: 0%;
+    }
+}
+
+.other{
+    .container-con{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    text-align: center;
+    margin-top: 100px;
+    footer {
+        display: flex;
+        align-items: center;
+        height: 60px;
+        bottom: 0%;
+        font-size: 15px;
+        letter-spacing: 1;
+        margin-top: 80px;
+        justify-content: space-around;
+        a{
+            color: gray;
+        }
+      }
+    .discord{
+        iframe{
+            margin-bottom: 50px;
+        }
+        
+        a{
+            text-decoration: none;
+            font-size: 15px;
+            background-color: #414eee;
+            padding: 15px;
+            border-radius: 6px;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+
+
